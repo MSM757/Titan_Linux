@@ -1,0 +1,14 @@
+[Desktop Entry]
+Comment=
+Exec=sh /usr/share/titanlinux/titantoolbox/FixAppindicator.sh
+GenericName=Fixes dependency issues for some electron apps such as Discord.
+Icon=data-warning
+Name=Install Legacy Libappinidicator
+NoDisplay=false
+Path[$e]=
+StartupNotify=true
+Terminal=1
+TerminalOptions=
+Type=Application
+X-KDE-SubstituteUID=false
+X-KDE-Username=

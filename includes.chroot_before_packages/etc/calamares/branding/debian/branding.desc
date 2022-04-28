@@ -1,0 +1,37 @@
+---
+componentName:   debian
+welcomeStyleCalamares: true
+welcomeExpandingLogo: true
+windowExpanding: normal
+windowSize: 800px,520px
+windowPlacement: center
+
+strings:
+    productName:         Titan Linux (Cronus)
+    shortProductName:    Titan Linux
+    version:             1.0 (Cronus)
+    shortVersion:        1.0
+    versionedName:       Titan Linux 1.0 (Cronus)
+    shortVersionedName:  Titan Linux 1.0
+    bootloaderEntryName: Debian
+    productUrl:          
+    supportUrl:          
+    knownIssuesUrl:      
+    releaseNotesUrl:     
+    donateUrl:           
+
+images:
+    productLogo:         "debian-logo.png"
+    productIcon:         "debian-logo.png"
+    # productWelcome:      "welcome.png"
+    # productWallpaper:  "wallpaper.png"
+
+slideshow:               "show.qml"
+
+style:
+   sidebarBackground:    "#124957"
+   sidebarText:          "#FFFFFF"
+   sidebarTextSelect:    "#202020"
+   sidebarTextSelect:    "#202020"
+
+slideshowAPI: 2

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22">
+      <g id="active-center" >
+        <path d="M0 0h22v22H0z" opacity=".001"/>
+       <path fill="#cacaca" d="M7 13v-2H5V9h12v2h-2v2z"/>
+        <circle stroke-width="1.3" r="9.5" cy="11" cx="11" fill="none" stroke="#009085" opacity="0"/>
+    </g>
+    <g id="hover-center" style="opacity:1">
+        <path d="M0 0h22v22H0z" opacity=".001"/>
+       <path fill="#cacaca" d="M7 13v-2H5V9h12v2h-2v2z"/>
+        <circle stroke-width="1.3" r="9.5" cy="11" cx="11" fill="none" stroke="#009085" opacity="1"/>
+    </g>
+    <g id="pressed-center" style="opacity:1">
+        <path d="M0 0h22v22H0z" opacity=".001"/>
+       <path fill="#cacaca" d="M7 13v-2H5V9h12v2h-2v2z"/>
+        <circle stroke-width="1.3" r="9.5" cy="11" cx="11" fill="none" stroke="#009085" opacity="1"/>
+    </g>
+     <g id="inactive-center" style="opacity:1">
+        <path d="M0 0h22v22H0z" opacity=".001"/>
+       <path fill="#cacaca" d="M7 13v-2H5V9h12v2h-2v2z"/>
+        <circle stroke-width="1.3" r="9.5" cy="11" cx="11" fill="none" stroke="#009085" opacity="0"/>
+    </g>
+    <g id="deactivated-center" style="opacity:1">
+        <path d="M0 0h22v22H0z" opacity=".001"/>
+       <path fill="#cacaca" d="M7 13v-2H5V9h12v2h-2v2z"/>
+        <circle stroke-width="1.3" r="9.5" cy="11" cx="11" fill="none" stroke="#009085" opacity="0"/>
+    </g>
+
+    
+</svg>
+
+

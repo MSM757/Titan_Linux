@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE khotnewstuff3>
+<hotnewstuffregistry>
+ <stuff category="102">
+  <name>Open Dolphin as root</name>
+  <providerid>https://api.kde-look.org/ocs/v1/</providerid>
+  <author>loup</author>
+  <homepage>https://store.kde.org/p/1384645</homepage>
+  <licence></licence>
+  <version>1.1</version>
+  <rating>67</rating>
+  <downloads>36637</downloads>
+  <installedfile>/home/titan/.local/share/servicemenu-download/open_as_root.desktop</installedfile>
+  <id>1384645</id>
+  <releasedate>2021-02-04</releasedate>
+  <summary>Now you can open the dolphin with root&lt;br />
+&lt;br />
+Works with kde5 plasma&lt;br />
+&lt;br />
+Attention: if you do not know what root is, then do not download this add-on !!&lt;br />
+&lt;br />
+Rate up to support the product&lt;br />
+&lt;br />
+&lt;br />
+How to install:&lt;br />
+- Dolphin -&amp;gt; Preferences -&amp;gt; Services...</summary>
+  <changelog></changelog>
+  <preview>https://images.pling.com/cache/100x100-0/img/00/00/56/42/80/1384645/6fc092541a11c86ddf1d928f0e61301ec5a3.png</preview>
+  <previewBig>https://images.pling.com/cache/770x540-0/img/00/00/56/42/80/1384645/6fc092541a11c86ddf1d928f0e61301ec5a3.png</previewBig>
+  <payload>https://dl2.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE2MTI0ODUwMDUiLCJvIjoiMSIsInMiOiJhZjVhYjhmM2YwNzcwYTgzZWUxOGU5Y2RlZGYyZTc5MjQ4ZTc1MTIzMWI3NjAxODFiYTkyZDA3ZjNkMmNiODU2MTkwNTc5NDhlZWJhOTc0MzZjNjA0MjY5YjRkZTY5YjM2YzgzZGRmZmRkNDdjMDhjODk0MzQ4NWZhZjJhYzA3MyIsInQiOjE2NTA2MzI2NTksInN0ZnAiOm51bGwsInN0aXAiOiI5Ny44Ny4zNi41NiJ9.XvlqWIm7nLYhQRaG3VMRxAsACk2PQdew7beClhUcOE0/open_as_root.desktop</payload>
+  <tags>root,as_root,addon,lgplv3,dolpin,folder</tags>
+  <status>installed</status>
+ </stuff>
+ <stuff category="102">
+  <name>Your Terminal Menu - Open Terminal Here</name>
+  <providerid>https://api.kde-look.org/ocs/v1/</providerid>
+  <author>loup</author>
+  <homepage>https://store.kde.org/p/1509062</homepage>
+  <licence></licence>
+  <version></version>
+  <rating>50</rating>
+  <downloads>2590</downloads>
+  <installedfile>/home/titan/.local/share/servicemenu-download/terminal.desktop</installedfile>
+  <id>1509062</id>
+  <releasedate>2021-04-22</releasedate>
+  <summary>the service for opening your terminal in the selected directory&lt;br />
+&lt;br />
+Your Terminal menu is a dolphin service that provides you a compact menu with your installed terminals,first you need to click the update list button to see your terminal in the menu; &lt;br />
+&lt;br />
+List of supported...</summary>
+  <changelog></changelog>
+  <preview>https://images.pling.com/cache/100x100-0/img/00/00/56/42/80/1509062/b741a5b24bbec34cab137ac773a91e5307c75e24e828fc68e4a7c1679c16d4f71419.png</preview>
+  <previewBig>https://images.pling.com/cache/770x540-0/img/00/00/56/42/80/1509062/b741a5b24bbec34cab137ac773a91e5307c75e24e828fc68e4a7c1679c16d4f71419.png</previewBig>
+  <payload>https://dl2.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE2MTkxMDk4MDIiLCJvIjoiMSIsInMiOiJmNGNhNWJmNGZmYWMxOTc1MDc1MmJkOTFhZTdhZDBjNGUzNzYyM2IyMmQxMDQ2NDVmMWFiYjBkZjllZTMyOWE4MTM1NjllZjRhODNlYzMwYTE4NTY3MDIyMGJiYWUwOTgzMjc2MTI1YmUxZjY2NmUzZWQ4YWFhYjc5ZGU1MmQ3MCIsInQiOjE2NTA2MzI3NjUsInN0ZnAiOm51bGwsInN0aXAiOiI5Ny44Ny4zNi41NiJ9.r3H4D8iApFmtuRG-HY5OYaRSUSYgDIjFrBsWijxY2eo/terminal.desktop</payload>
+  <tags>original-product,open,terminal,here,lgplv3,addon</tags>
+  <status>installed</status>
+ </stuff>
+</hotnewstuffregistry>

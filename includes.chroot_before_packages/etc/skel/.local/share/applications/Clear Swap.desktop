@@ -1,0 +1,14 @@
+[Desktop Entry]
+Comment=
+Exec=sudo sh /usr/share/titanlinux/titantoolbox/ResetSwap.sh
+GenericName=Clears your swap file or partition.
+Icon=drive-harddisk-symbolic
+Name=Clear Swap
+NoDisplay=false
+Path[$e]=
+StartupNotify=true
+Terminal=1
+TerminalOptions=
+Type=Application
+X-KDE-SubstituteUID=false
+X-KDE-Username=

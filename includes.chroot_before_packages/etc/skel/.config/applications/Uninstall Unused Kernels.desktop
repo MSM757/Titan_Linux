@@ -1,0 +1,14 @@
+[Desktop Entry]
+Comment=
+Exec=sudo sh /usr/share/titanlinux/titantoolbox/UninstallUnusedKernels.sh
+GenericName=Removes all but the currently active kernel (Cannot be undone.)
+Icon=data-warning
+Name=Uninstall Unused Kernels
+NoDisplay=false
+Path[$e]=
+StartupNotify=true
+Terminal=1
+TerminalOptions=
+Type=Application
+X-KDE-SubstituteUID=false
+X-KDE-Username=

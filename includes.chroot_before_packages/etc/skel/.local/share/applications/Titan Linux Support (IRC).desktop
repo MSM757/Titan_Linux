@@ -1,0 +1,14 @@
+[Desktop Entry]
+Comment=
+Exec=xdg-open https://kiwiirc.com/nextclient/irc.freenode.net/techcafe
+GenericName=The IRC for support of Titan Linux!
+Icon=/usr/share/titanlinux/titan-dark.png
+Name=Titan Linux Support (IRC)
+NoDisplay=false
+Path[$e]=
+StartupNotify=true
+Terminal=0
+TerminalOptions=
+Type=Application
+X-KDE-SubstituteUID=false
+X-KDE-Username=

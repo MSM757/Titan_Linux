@@ -1,0 +1,227 @@
+[Desktop Entry]
+Actions=xterm;qterminal;;getmyterminal;
+#Asctions=konsole;deepin;terminator;xterm;xfce4-terminal;gnome-terminal;lxterminal;roxterm;pantheon-terminal;sakuraterminal;kittyterminal;alacrittyopen;tilix;terminus;hyper
+# $(kf5-config --path services | sed 's@:.*@@g')/ServiceMenus/terminal.desktop
+Icon=utilities-terminal
+#MimeType=all/allfiles
+MimeType=inode/directory;
+#ServiceTypes=KonqPopupMenu/Plugin
+Type=Service
+Version=1.1
+X-KDE-Priority=TopLevel
+X-KDE-ServiceTypes=KonqPopupMenu/Plugin
+X-KDE-AuthorizeAction=shell_access
+X-KDE-StartupNotify=false
+X-KDE-Submenu=Your Terminal
+X-KDE-Submenu[en]=Your Terminal
+
+[Desktop Action getmyterminal]
+Exec=bash -c 'yourterminals="konsole konsole5 deepin-terminal terminator xterm xfce4-terminal gnome-terminal mate-terminal lxterminal roxterm roxterm-common io.elementary.terminal sakura kitty alacritty tilix terminus hyper guake tilda cool-retro-term yakuake stterm rxvt-unicode eterm terminology lilyterm qterminal aterm evilvte";test=$(echo "$yourterminals" | tr " " "\n" | tac);number=$(echo "$test" | wc -l);command="" ;for (( i=1; i <= $number; i++ )) do terminal=$(echo -e "$test" | awk "(NR == $i)"); if dpkg -s $terminal &> /dev/null; then command="$terminal;$command";fi;if pacman -Qi $terminal &> /dev/null; then command="$terminal;$command"; fi; if rpm -q $terminal &> /dev/null; then command="$terminal;$command"; fi done;sed "/^Exec=/!s/Actions=.*/Actions=$command;getmyterminal;/g" -i '' ~/.local/share/kservices5/ServiceMenus/terminal.desktop ;'
+Icon=collection-rescan-amarok
+Name=Update list
+
+[Desktop Action konsole]
+TryExec=konsole
+Exec=konsole --workdir %f
+Icon=utilities-terminal
+Name=Open Konsole here
+
+[Desktop Action konsole5]
+TryExec=konsole
+Exec=konsole --workdir %f
+Icon=utilities-terminal
+Name=Open Konsole here
+
+[Desktop Action deepin-terminal]
+X-TryExec=oocalc
+TryExec=deepin-terminal
+Exec=deepin-terminal -w %f
+Icon=deepin-terminal
+Name=Open Deep in Terminal here
+
+[Desktop Action terminator]
+# Exec=current_pid=$(crow -t 'en' -f %U); echo ${current_pid} > "translated_en"%n
+TryExec=terminator
+Exec=terminator --working-directory=%f
+Icon=terminator
+Name=Open Terminator here
+
+
+[Desktop Action xterm]
+# Exec=current_pid=$(crow -t 'en' -f %U); echo ${current_pid} > "translated_en"%n
+TryExec=xterm
+Exec=xterm -e 'cd %f && /bin/bash'
+Icon=mini.xterm
+Name=Open Xterm here
+
+
+[Desktop Action xfce4-terminal]
+# Exec=current_pid=$(crow -t 'en' -f %U); echo ${current_pid} > "translated_en"%n
+TryExec=xfce4-terminal
+Exec=xfce4-terminal --working-directory=%f
+Icon=utilities-terminal
+Name=Open Xfce-terminal here
+
+[Desktop Action gnome-terminal]
+# Exec=current_pid=$(crow -t 'en' -f %U); echo ${current_pid} > "translated_en"%n
+TryExec=gnome-terminal
+Exec=gnome-terminal --working-directory=%f
+Icon=org.gnome.Terminal
+Name=Open Gnome-terminal here
+
+[Desktop Action lxterminal]
+# Exec=current_pid=$(crow -t 'en' -f %U); echo ${current_pid} > "translated_en"%n
+TryExec=lxterminal
+Exec=lxterminal --working-directory=%f
+Icon=lxterminal
+Name=Open Lx-terminal here
+
+[Desktop Action roxterm]
+# Exec=current_pid=$(crow -t 'en' -f %U); echo ${current_pid} > "translated_en"%n
+TryExec=roxterm
+Exec=roxterm -d %f
+Icon=roxterm
+Name=Open Rox Term here
+
+[Desktop Action roxterm-common]
+# Exec=current_pid=$(crow -t 'en' -f %U); echo ${current_pid} > "translated_en"%n
+TryExec=roxterm
+Exec=roxterm -d %f
+Icon=roxterm
+Name=Open Rox Term here
+
+[Desktop Action io.elementary.terminal]
+# Exec=current_pid=$(crow -t 'en' -f %U); echo ${current_pid} > "translated_en"%n
+TryExec=io.elementary.terminal
+Exec=io.elementary.terminal -w %f
+Icon=utilities-terminal
+Name=Open Pantheon-terminal here
+
+[Desktop Action sakura]
+# Exec=current_pid=$(crow -t 'en' -f %U); echo ${current_pid} > "translated_en"%n
+TryExec=sakura
+Exec=sakura --working-directory %f
+Icon=terminal-tango
+Name=Open Sakura Here
+
+
+[Desktop Action kitty]
+TryExec=kitty
+Icon=kitty
+Exec=kitty --directory %f
+Name=Open Kitty Here
+
+[Desktop Action alacritty]
+TryExec=alacritty
+Exec=alacritty --working-directory %f
+Icon=com.alacritty.Alacritty
+Name=Open Alacritty Here
+
+
+[Desktop Action tilix]
+TryExec=tilix
+Exec=tilix -w %f
+Icon=com.gexperts.Tilix
+Name=Open Tilix Here
+
+
+[Desktop Action terminus]
+TryExec=/opt/Terminus/terminus
+Exec=/opt/Terminus/terminus --no-sandbox %f
+Icon=terminus
+Name=Open Terminus Here
+
+[Desktop Action hyper]
+TryExec=/opt/Hyper/hyper
+Exec="/opt/Hyper/hyper" %f
+Icon=hyper
+Name=Open Hyper Here
+
+
+[Desktop Action guake]
+TryExec=guake
+Exec=guake -n %f -r %f -t
+Icon=guake
+Name=Open Guake Here
+
+
+[Desktop Action tilda]
+TryExec=tilda
+Exec=tilda --working-dir %f
+Icon=tilda
+Name=Open Tilda Here
+
+
+[Desktop Action cool-retro-term]
+TryExec=cool-retro-term
+Exec=cool-retro-term --workdir %f
+Icon=cool-retro-term
+Name=Open Cool Retro Term Here
+
+
+[Desktop Action yakuake]
+TryExec=yakuake
+Exec=path=$(echo %f | sed 's@ @"&"@g' );qdbus org.kde.yakuake /yakuake/sessions addSession;id="$(qdbus org.kde.yakuake /yakuake/sessions sessionIdList | tr , "\n" | sort -g | tail -1 | tr -d '\n')";qdbus org.kde.yakuake /yakuake/tabs setTabTitle "$id" "%n";qdbus org.kde.yakuake /yakuake/sessions runCommand " cd $path;clear";qdbus org.kde.yakuake /yakuake/window toggleWindowState
+Icon=yakuake
+Name=Open Yakuake Here
+
+
+[Desktop Action stterm]
+TryExec=stterm
+Exec=cd %f;st
+Icon=utilities-terminal
+Name=Open Simple Terminal Here
+
+
+[Desktop Action rxvt-unicode]
+TryExec=urxvt
+Exec=urxvt -cd %f 
+Icon=urxvt_48x48.xpm
+Name=Open Rxvt Color Unicode Terminal Here
+
+
+[Desktop Action eterm]
+Exec=sh -c 'cd %f ; Eterm'
+Icon=utilities-terminal
+Name=Open Eterm Here
+
+
+[Desktop Action terminology]
+Exec=terminology -d %f
+Icon=terminology
+Name=Open Terminology Here
+
+
+[Desktop Action lilyterm]
+Exec=lilyterm -d %f
+Icon=lilyterm
+Name=Open LilyTerm Here
+
+
+[Desktop Action qterminal]
+Exec=qterminal -w %f
+Icon=qterminal
+Name=Open Qterminal Here
+
+[Desktop Action mate-terminal]
+Exec=mate-terminal --working-directory= %f
+Icon=utilities-terminal
+Name=Open Mate-terminal Here
+
+
+[Desktop Action termite]
+Exec=termite -d %f
+Icon=utilities-terminal
+Name=Open Termite Here
+
+
+[Desktop Action aterm]
+Exec=aterm -cd %f
+Icon=utilities-terminal
+Name=Open Aterm Here
+
+
+[Desktop Action evilvte]
+Exec=cd %f;evilvte
+Icon=evilvte
+Name=Open Evilvte Here

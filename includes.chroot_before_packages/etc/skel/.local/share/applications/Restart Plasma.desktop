@@ -1,0 +1,14 @@
+[Desktop Entry]
+Comment=
+Exec=kquitapp5 plasmashell || killall plasmashell && kstart5 plasmashell
+GenericName=Restart plasma shell in case of unstability.
+Icon=view-refresh
+Name=Restart Plasma
+NoDisplay=false
+Path[$e]=
+StartupNotify=true
+Terminal=0
+TerminalOptions=
+Type=Application
+X-KDE-SubstituteUID=false
+X-KDE-Username=

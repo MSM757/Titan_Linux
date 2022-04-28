@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE khotnewstuff3>
+<hotnewstuffregistry>
+ <stuff category="114">
+  <name>Dragon aurorae theme</name>
+  <providerid>https://api.kde-look.org/ocs/v1/</providerid>
+  <author>nesuko</author>
+  <homepage>https://store.kde.org/p/1389254</homepage>
+  <licence></licence>
+  <version>0.1</version>
+  <rating>50</rating>
+  <downloads>6442</downloads>
+  <installedfile>/home/titan/.local/share/aurorae/themes/Dragon/*</installedfile>
+  <id>1389254</id>
+  <releasedate>2020-06-01</releasedate>
+  <summary>&lt;span style="color: #008E02;">Dragon theme for KDE&lt;/span>&lt;br />
+&lt;br />
+Theme information:&lt;br />
+&lt;br />
+Icons (based on breeze icons): &lt;a href="https://www.pling.com/p/1389258/" target="_blank" rel="nofollow">https://www.pling.com/p/1389258/&lt;/a>&lt;br />
+Aurorae theme: &lt;a href="https://www.pling.com/p/1389254/" target="_blank" rel="nofollow">https://www.pling.com/p/1389254/&lt;/a>&lt;br />
+Plasma theme: &lt;a href="https://www.pling.com/p/1389255/" target="_blank" rel="nofollow">https://www.pling.com/p/1389255/&lt;/a>&lt;br />
+Wallpaper: &lt;a href="https://www.pling.com/p/1389021/" target="_blank" rel="nofollow">https://www.pling.com/p/1389021/&lt;/a>&lt;br />
+Colorscheme: &lt;a href="https://www.pling.com/p/1389253/" target="_blank" rel="nofollow">https://www.pling.com/p/1389253/&lt;/a>&lt;br />
+&lt;br />
+You can leave comments and suggestions here or in my repository.&lt;br />
+&lt;br />
+Thanks for using the theme, I hope to improve it later.</summary>
+  <changelog></changelog>
+  <preview>https://images.pling.com/cache/100x100-0/img/00/00/54/79/69/1389254/1e0197b9b00e5850cdbddc342c3ead6410381.png</preview>
+  <previewBig>https://images.pling.com/cache/770x540-0/img/00/00/54/79/69/1389254/1e0197b9b00e5850cdbddc342c3ead6410381.png</previewBig>
+  <payload>https://dl2.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE1OTEwMjc3MDciLCJvIjoiMSIsInMiOiJhYmFhMzUwODgyMjFkOWZjMTU5YTBhZDZjMTBjMGIzNGVjNWM4YzlkMjljYmJjZTU3MWQ3MWViYjg1YmQwNTQ2YTRjMTMwMjU1ZjJmMDA1MDk2NjNlNDNmNmY5MDJkNmNmODRhMjcxYTY4OTQ2ZjMyOWM1NmQyOTk5NDczN2VlNSIsInQiOjE2NTA2MzUxNTQsInN0ZnAiOm51bGwsInN0aXAiOiI5Ny44Ny4zNi41NiJ9.SqjsYvttUpYh0AEeuBSSWy4X1LdDFORS7cL5D0HLCV0/Dragon.tar.gz</payload>
+  <tags>original-product,linux,plasma,dark,gplv3,kde,unix,theme</tags>
+  <status>installed</status>
+ </stuff>
+</hotnewstuffregistry>

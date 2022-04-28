@@ -1,0 +1,22 @@
+[Desktop Entry]
+Actions=
+Categories=Unknown;
+Comment[en_US]=Restart the network manager system service.
+Comment=Restart the network manager system service.
+Exec=sudo sh /usr/share/titanlinux/titantoolbox/RestartNetworkServices.sh
+GenericName[en_US]=
+GenericName=
+Icon=network-wired-activated
+MimeType=
+Name[en_US]=Restart Network Services
+Name=Restart Network Services
+Path=
+StartupNotify=true
+Terminal=true
+TerminalOptions=
+Type=Application
+Version=1.1
+X-DBUS-ServiceName=
+X-DBUS-StartupType=
+X-KDE-SubstituteUID=false
+X-KDE-Username=

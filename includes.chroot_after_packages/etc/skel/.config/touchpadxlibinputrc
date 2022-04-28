@@ -1,0 +1,6 @@
+[SYNA32AA:00 06CB:CE17 Touchpad]
+clickMethodAreas=true
+clickMethodClickfinger=false
+naturalScroll=true
+pointerAcceleration=0.2
+tapToClick=true
