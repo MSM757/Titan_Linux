@@ -5,8 +5,8 @@ dialog --title "Dump APT" \
 
 response=$?
 case $response in
-   0) sudo dpkg-query -f '${binary:Package}\n' -W > packages_list.txt && echo Successful! && sleep 5 && exit;;
-   1) exit;;
-   255) echo exit;;
+   0) sudo dpkg-query -f '${binary:Package}\n' -W > packages_list.txt && echo Successful! && sleep 5 && sudo -k;;
+   1) sh /usr/share/titanlinux/titantoolbox/AptToolsMenu.sh;;
+   255) sh /usr/share/titanlinux/titantoolbox/AptToolsMenu.sh;;
 esac
-exec bash;
+sh /usr/share/titanlinux/titantoolbox/AptToolsMenu.sh

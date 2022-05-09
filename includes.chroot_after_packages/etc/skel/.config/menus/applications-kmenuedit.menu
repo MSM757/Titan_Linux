@@ -1,5 +1,117 @@
 <!DOCTYPE Menu PUBLIC '-//freedesktop//DTD Menu 1.0//EN' 'http://www.freedesktop.org/standards/menu-spec/1.0/menu.dtd'>
 <Menu>
+ <Menu>
+  <Name>Titan Toolbox</Name>
+  <Directory>Titan Toolbox.directory</Directory>
+  <Menu>
+   <Name>Add Extra Repositories &amp; Helpers</Name>
+   <Directory>Add Extra Repositories &amp; Helpers.directory</Directory>
+   <Deleted/>
+  </Menu>
+  <Menu>
+   <Name>Add Extra Repositories &amp; Helpers-2</Name>
+   <Directory>Add Extra Repositories &amp; Helpers.directory</Directory>
+   <Deleted/>
+  </Menu>
+  <Include>
+   <Filename>Add Extra Repositories &amp; Helpers.desktop</Filename>
+   <Filename>APT Tools.desktop</Filename>
+   <Filename>Extra Software.desktop</Filename>
+   <Filename>Firewall.desktop</Filename>
+   <Filename>Tweak Tool.desktop</Filename>
+   <Filename>System Updater.desktop</Filename>
+   <Filename>Advanced Tools.desktop</Filename>
+  </Include>
+  <Menu>
+   <Name>Utilities</Name>
+   <Directory>Utilities.directory</Directory>
+   <Layout>
+    <Merge type="files"/>
+    <Filename>Application Terminator.desktop</Filename>
+   </Layout>
+   <Include>
+    <Filename>Application Terminator.desktop</Filename>
+   </Include>
+  </Menu>
+  <Menu>
+   <Name>Utilities-2</Name>
+   <NotDeleted/>
+   <Menu>
+    <Name>Community &amp; Support</Name>
+    <NotDeleted/>
+   </Menu>
+   <Include>
+    <Filename>Hardware Information.desktop</Filename>
+    <Filename>Restart Plasma.desktop</Filename>
+    <Filename>Clear Swap.desktop</Filename>
+    <Filename>Restart Network Service.desktop</Filename>
+   </Include>
+   <Layout>
+    <Merge type="files"/>
+    <Filename>Restart Network Service.desktop</Filename>
+    <Filename>Clear Swap.desktop</Filename>
+    <Filename>Restart Plasma.desktop</Filename>
+    <Filename>Hardware Information.desktop</Filename>
+    <Filename>Application Terminator.desktop</Filename>
+   </Layout>
+  </Menu>
+  <Move>
+   <Old>Utilities</Old>
+   <New>Utilities-2</New>
+  </Move>
+  <Exclude/>
+  <Menu>
+   <Name>Community &amp; Support</Name>
+   <Directory>Community &amp; Support.directory</Directory>
+   <NotDeleted/>
+   <Include>
+    <Filename>Titan Linux Forums.desktop</Filename>
+    <Filename>Titan Linux Discord.desktop</Filename>
+    <Filename>Titan Linux Website.desktop</Filename>
+   </Include>
+   <Layout>
+    <Merge type="files"/>
+    <Filename>Titan Linux Forums.desktop</Filename>
+    <Filename>Titan Linux Discord.desktop</Filename>
+    <Filename>Titan Linux Website.desktop</Filename>
+   </Layout>
+  </Menu>
+  <Move>
+   <Old>Community &amp; Support</Old>
+   <New>Utilities-2/Community &amp; Support</New>
+  </Move>
+  <Move>
+   <Old>Utilities-2/Community &amp; Support</Old>
+   <New>Community &amp; Support</New>
+  </Move>
+  <Menu>
+   <Name>Graphics Settings</Name>
+   <Directory>Graphics Settings.directory</Directory>
+   <Include>
+    <Filename>Low Graphics Mode.desktop</Filename>
+    <Filename>Default Graphics Mode.desktop</Filename>
+   </Include>
+   <Layout>
+    <Merge type="files"/>
+    <Filename>Low Graphics Mode.desktop</Filename>
+    <Filename>Default Graphics Mode.desktop</Filename>
+   </Layout>
+   <Deleted/>
+  </Menu>
+  <Layout>
+   <Merge type="menus"/>
+   <Menuname>Utilities-2</Menuname>
+   <Menuname>Community &amp; Support</Menuname>
+   <Merge type="files"/>
+   <Filename>APT Tools.desktop</Filename>
+   <Filename>Extra Software.desktop</Filename>
+   <Filename>Advanced Tools.desktop</Filename>
+   <Filename>Firewall.desktop</Filename>
+   <Filename>Add Extra Repositories &amp; Helpers.desktop</Filename>
+   <Filename>Tweak Tool.desktop</Filename>
+   <Filename>System Updater.desktop</Filename>
+  </Layout>
+ </Menu>
  <Layout>
   <Merge type="menus"/>
   <Menuname>Titan Toolbox</Menuname>
@@ -16,255 +128,4 @@
   <Menuname>Utilities</Menuname>
   <Menuname>Applications</Menuname>
  </Layout>
- <Menu>
-  <Name>Titan Toolbox</Name>
-  <Directory>Titan Toolbox.directory</Directory>
-  <Menu>
-   <Name>APT Tools</Name>
-   <Directory>APT Tools.directory</Directory>
-   <Layout>
-    <Merge type="files"/>
-    <Filename>Update System.desktop</Filename>
-    <Filename>Package Dump.desktop</Filename>
-    <Filename>Clean APT.desktop</Filename>
-   </Layout>
-   <Include>
-    <Filename>Clean APT.desktop</Filename>
-    <Filename>Package Dump.desktop</Filename>
-    <Filename>Update System.desktop</Filename>
-   </Include>
-   <Menu>
-    <Name>Package Dump</Name>
-    <Directory>Package Dump.directory</Directory>
-    <Deleted/>
-   </Menu>
-  </Menu>
-  <Menu>
-   <Name>Software</Name>
-   <Menu>
-    <Name>Browsers</Name>
-    <Directory>Browsers.directory</Directory>
-    <Include>
-     <Filename>Install Brave.desktop</Filename>
-     <Filename>Install Chrome.desktop</Filename>
-     <Filename>Install Chromium.desktop</Filename>
-     <Filename>Install LibreWolf.desktop</Filename>
-     <Filename>Install Opera.desktop</Filename>
-     <Filename>Install Vivaldi.desktop</Filename>
-     <Filename>Install Firefox ESR.desktop</Filename>
-    </Include>
-    <Layout>
-     <Merge type="files"/>
-     <Filename>Install Firefox ESR.desktop</Filename>
-     <Filename>Install Vivaldi.desktop</Filename>
-     <Filename>Install Opera.desktop</Filename>
-     <Filename>Install LibreWolf.desktop</Filename>
-     <Filename>Install Chromium.desktop</Filename>
-     <Filename>Install Chrome.desktop</Filename>
-     <Filename>Install Brave.desktop</Filename>
-    </Layout>
-    <Exclude>
-     <Filename>Firefox ESR.desktop</Filename>
-     <Filename>Install Latest Available Kernel.desktop</Filename>
-    </Exclude>
-   </Menu>
-   <Directory>Software.directory</Directory>
-   <Include>
-    <Filename>Install Snap Support.desktop</Filename>
-    <Filename>Install Flatpak Support.desktop</Filename>
-    <Filename>Enable 32-bit Libraries.desktop</Filename>
-    <Filename>Install Encrypted DVD Support.desktop</Filename>
-    <Filename>Enable Extra Repositories.desktop</Filename>
-   </Include>
-   <Menu>
-    <Name>Browsers-2</Name>
-    <Layout>
-     <Merge type="files"/>
-     <Filename>Install Firefox ESR.desktop</Filename>
-     <Filename>Install Vivaldi.desktop</Filename>
-     <Filename>Install Opera.desktop</Filename>
-     <Filename>Install LibreWolf.desktop</Filename>
-     <Filename>Install Chromium.desktop</Filename>
-     <Filename>Install Chrome.desktop</Filename>
-     <Filename>Install Brave.desktop</Filename>
-    </Layout>
-    <NotDeleted/>
-   </Menu>
-   <Exclude>
-    <Filename>Install Backported Kernel.desktop</Filename>
-    <Filename>Build and install autocpu-freq.desktop</Filename>
-    <Filename>Install Latest Available Kernel.desktop</Filename>
-    <Filename>Install NVIDIA Drivers.desktop</Filename>
-    <Filename>Install NVIDIA Legacy Driver.desktop</Filename>
-    <Filename>Fix Libappinidicator.desktop</Filename>
-   </Exclude>
-   <Move>
-    <Old>Browsers</Old>
-    <New>Browsers-2</New>
-   </Move>
-   <Menu>
-    <Name>Browsers-3</Name>
-    <NotDeleted/>
-    <Layout>
-     <Merge type="files"/>
-     <Filename>Install Firefox ESR.desktop</Filename>
-     <Filename>Install Vivaldi.desktop</Filename>
-     <Filename>Install LibreWolf.desktop</Filename>
-     <Filename>Install Chromium.desktop</Filename>
-     <Filename>Install Chrome.desktop</Filename>
-     <Filename>Install Brave.desktop</Filename>
-    </Layout>
-    <Exclude>
-     <Filename>Install Opera.desktop</Filename>
-    </Exclude>
-   </Menu>
-   <Menu>
-    <Name>Backports</Name>
-    <Directory>Backports.directory</Directory>
-    <Include/>
-    <Exclude>
-     <Filename>Enable Extra Repositories.desktop</Filename>
-    </Exclude>
-    <Deleted/>
-   </Menu>
-   <Menu>
-    <Name>Advanced</Name>
-    <Directory>Advanced.directory</Directory>
-    <NotDeleted/>
-   </Menu>
-   <Menu>
-    <Name>Advanced-2</Name>
-    <Include/>
-    <Layout>
-     <Merge type="files"/>
-     <Filename>Install NVIDIA Driver (BACKPORTS ONLY!).desktop</Filename>
-     <Filename>Install Latest Available Kernel.desktop</Filename>
-    </Layout>
-    <Exclude>
-     <Filename>Install NVIDIA Driver (BACKPORTS ONLY!).desktop</Filename>
-     <Filename>Install Latest Available Kernel.desktop</Filename>
-    </Exclude>
-    <Deleted/>
-   </Menu>
-   <Move>
-    <Old>Advanced</Old>
-    <New>Advanced-2</New>
-   </Move>
-   <Menu>
-    <Name>Advanced-3</Name>
-    <Directory>Advanced-2.directory</Directory>
-    <Include>
-     <Filename>Install Latest Available Kernel-2.desktop</Filename>
-     <Filename>Install Latest Available Kernel-3.desktop</Filename>
-     <Filename>Fix Libappinidicator.desktop</Filename>
-     <Filename>Uninstall Unused Kernels.desktop</Filename>
-    </Include>
-    <Layout>
-     <Merge type="files"/>
-     <Filename>Uninstall Unused Kernels.desktop</Filename>
-     <Filename>Install Latest Available Kernel-3.desktop</Filename>
-     <Filename>Fix Libappinidicator.desktop</Filename>
-    </Layout>
-   </Menu>
-   <Layout>
-    <Merge type="menus"/>
-    <Menuname>Advanced-3</Menuname>
-    <Merge type="files"/>
-    <Filename>Install Encrypted DVD Support.desktop</Filename>
-    <Filename>Enable 32-bit Libraries.desktop</Filename>
-    <Filename>Install Flatpak Support.desktop</Filename>
-    <Filename>Install Snap Support.desktop</Filename>
-    <Menuname>Browsers-3</Menuname>
-    <Filename>Enable Extra Repositories.desktop</Filename>
-   </Layout>
-  </Menu>
-  <Menu>
-   <Name>Support</Name>
-   <Directory>Support.directory</Directory>
-   <Layout>
-    <Merge type="files"/>
-    <Filename>Titan Linux Support (IRC).desktop</Filename>
-    <Filename>Titan Linux Support (Discord).desktop</Filename>
-   </Layout>
-   <Include>
-    <Filename>Titan Linux Support (Discord).desktop</Filename>
-    <Filename>Titan Linux Support (IRC).desktop</Filename>
-   </Include>
-  </Menu>
-  <Menu>
-   <Name>Utilities</Name>
-   <Directory>Utilities.directory</Directory>
-   <Layout>
-    <Merge type="files"/>
-    <Filename>Restart Network Service.desktop</Filename>
-    <Filename>Clear Swap.desktop</Filename>
-    <Filename>Application Terminator.desktop</Filename>
-    <Filename>Restart Plasma.desktop</Filename>
-   </Layout>
-   <Include>
-    <Filename>Restart Plasma.desktop</Filename>
-    <Filename>Application Terminator.desktop</Filename>
-    <Filename>Clear Swap.desktop</Filename>
-    <Filename>Restart Network Service.desktop</Filename>
-   </Include>
-  </Menu>
-  <Menu>
-   <Name>Panel Layouts</Name>
-   <Directory>Panel Layouts.directory</Directory>
-   <Layout>
-    <Merge type="files"/>
-    <Filename>Restore Plasma 5 Default.desktop</Filename>
-    <Filename>Restore Titan Linux Default.desktop</Filename>
-   </Layout>
-   <Include>
-    <Filename>Restore Titan Linux Default.desktop</Filename>
-    <Filename>Restore Plasma 5 Default.desktop</Filename>
-   </Include>
-  </Menu>
-  <Menu>
-   <Name>Browsers</Name>
-   <NotDeleted/>
-  </Menu>
-  <Move>
-   <Old>Software/Browsers-2</Old>
-   <New>Browsers</New>
-  </Move>
-  <Move>
-   <Old>Browsers</Old>
-   <New>Software/Browsers-3</New>
-  </Move>
-  <Layout>
-   <Merge type="menus"/>
-   <Menuname>Panel Layouts</Menuname>
-   <Menuname>Utilities</Menuname>
-   <Menuname>Support</Menuname>
-   <Menuname>Software</Menuname>
-   <Menuname>APT Tools</Menuname>
-  </Layout>
-  <Menu>
-   <Name>Advanced</Name>
-   <NotDeleted/>
-  </Menu>
-  <Move>
-   <Old>Software/Advanced-2</Old>
-   <New>Advanced</New>
-  </Move>
-  <Move>
-   <Old>Advanced</Old>
-   <New>Software/Advanced-2</New>
-  </Move>
- </Menu>
- <Menu>
-  <Name>.hidden</Name>
-  <Include>
-   <Filename>Firefox ESR.desktop</Filename>
-   <Filename>Install Backported Kernel.desktop</Filename>
-   <Filename>Install Opera.desktop</Filename>
-   <Filename>Build and install autocpu-freq.desktop</Filename>
-   <Filename>Install NVIDIA Driver (BACKPORTS ONLY!).desktop</Filename>
-   <Filename>Install Latest Available Kernel.desktop</Filename>
-   <Filename>Install NVIDIA Drivers.desktop</Filename>
-   <Filename>Install NVIDIA Legacy Driver.desktop</Filename>
-  </Include>
- </Menu>
 </Menu>

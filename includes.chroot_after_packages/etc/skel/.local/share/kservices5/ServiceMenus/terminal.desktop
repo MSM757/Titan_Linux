@@ -1,5 +1,5 @@
 [Desktop Entry]
-Actions=xterm;qterminal;;getmyterminal;
+Actions=konsole;xterm;yakuake;;getmyterminal;
 #Asctions=konsole;deepin;terminator;xterm;xfce4-terminal;gnome-terminal;lxterminal;roxterm;pantheon-terminal;sakuraterminal;kittyterminal;alacrittyopen;tilix;terminus;hyper
 # $(kf5-config --path services | sed 's@:.*@@g')/ServiceMenus/terminal.desktop
 Icon=utilities-terminal

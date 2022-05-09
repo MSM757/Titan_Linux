@@ -1,5 +1,5 @@
 #!/bin/bash
-dialog --title "Restart Network Services" \
+dialog --no-shadow --title "Restart Network Services" \
 --backtitle "Titan Toolbox by Matthew Moore & CobaltRogue" \
 --yesno "Restart the network services?" 7 60
 

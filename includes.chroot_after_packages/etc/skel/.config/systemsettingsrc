@@ -3,8 +3,8 @@ eDP Height 1080=248
 eDP Width 1920=279
 
 [KFileDialog Settings]
-Recent Files[$e]=titan_shutdown.ogg,file:///usr/share/titanlinux/sounds/titan_startup.ogg,file:///usr/share/titanlinux/sounds/titan_shutdown.sh,file:///usr/share/titanlinux/sounds/titan_startup.sh,file:///usr/share/titanlinux/sounds/titan_shutdown.ogg
-Recent URLs[$e]=file:///usr/share/titanlinux/sounds/,file:///usr/share/titanlinux/,file:///usr/share/,file:///usr/
+Recent Files[$e]=
+Recent URLs[$e]=
 detailViewIconSize=16
 
 [KPropertiesDialog]
@@ -24,8 +24,8 @@ Virtual1 Height 976=700
 Virtual1 Width 1347=1024
 Virtual1 Width 1920=1024
 Virtual1 Width 800=792
-Virtual1 XPosition=131
-Virtual1 YPosition=117
+Virtual1 XPosition=252
+Virtual1 YPosition=169
 eDP Height 1080=700
 eDP Width 1920=1024
 eDP XPosition=554
@@ -33,4 +33,4 @@ eDP YPosition=267
 
 [Open-with settings]
 CompletionMode=1
-History=/usr/share/titanlinux/sounds/titan_startup.ogg,paplay /usr/share/titanlinux/sounds/titan_startup.ogg,qter,scree
+History=konsol

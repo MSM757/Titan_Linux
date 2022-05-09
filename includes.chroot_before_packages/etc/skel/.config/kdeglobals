@@ -105,11 +105,14 @@ ForegroundNormal=202,202,202
 ForegroundPositive=39,174,96
 ForegroundVisited=127,140,141
 
+[DirSelect Dialog]
+DirSelectDialog Size=844,598
+History Items[$e]=file:$HOME/.config
+
 [General]
 BrowserApplication=firefox-esr.desktop
 ColorScheme=Dragon
 Name=Dragon
-TerminalApplication=qterminal
 shadeSortColumn=true
 widgetStyle=Breeze
 

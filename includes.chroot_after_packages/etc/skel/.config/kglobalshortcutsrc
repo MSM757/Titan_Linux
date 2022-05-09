@@ -212,6 +212,12 @@ stopmedia=Media Stop,Media Stop,Stop media playback
 _k_friendly_name=Dolphin
 _launch=Meta+E,Meta+E,Dolphin
 
+[org.kde.konsole.desktop]
+NewTab=,,Open a New Tab
+NewWindow=,,Open a New Window
+_k_friendly_name=Konsole
+_launch=Ctrl+Alt+T,,Konsole
+
 [org.kde.ksysguard.desktop]
 _k_friendly_name=KSysGuard
 _launch=Ctrl+Alt+Del,,KSysGuard
@@ -234,7 +240,7 @@ Turn Off Screen=none,none,Turn Off Screen
 _k_friendly_name=Power Management
 
 [plasmashell]
-_k_friendly_name=Plasma
+_k_friendly_name=Activity switching
 activate task manager entry 1=Meta+1,Meta+1,Activate Task Manager Entry 1
 activate task manager entry 10=,Meta+0,Activate Task Manager Entry 10
 activate task manager entry 2=Meta+2,Meta+2,Activate Task Manager Entry 2
@@ -264,11 +270,10 @@ switch to next activity=none,none,Switch to Next Activity
 switch to previous activity=none,none,Switch to Previous Activity
 toggle do not disturb=none,none,Toggle do not disturb
 
-[qterminal.desktop]
-Dropdown=Meta+F12,,Drop-down terminal
-_k_friendly_name=QTerminal
-_launch=Ctrl+Alt+T,,QTerminal
-
 [systemsettings.desktop]
 _k_friendly_name=System Settings
 _launch=Tools,Tools,System Settings
+
+[yakuake]
+_k_friendly_name=Yakuake
+toggle-window-state=F12,F12,Open/Retract Yakuake

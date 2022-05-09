@@ -9,10 +9,10 @@ windowPlacement: center
 strings:
     productName:         Titan Linux (Cronus)
     shortProductName:    Titan Linux
-    version:             1.0 (Cronus)
-    shortVersion:        1.0
-    versionedName:       Titan Linux 1.0 (Cronus)
-    shortVersionedName:  Titan Linux 1.0
+    version:             1.2 (Cronus)
+    shortVersion:        1.2
+    versionedName:       Titan Linux 1.2 (Cronus)
+    shortVersionedName:  Titan Linux 1.2
     bootloaderEntryName: Debian
     productUrl:          
     supportUrl:          

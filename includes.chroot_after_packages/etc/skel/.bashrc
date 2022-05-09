@@ -115,5 +115,7 @@ if ! shopt -oq posix; then
   fi
 fi
 
-neofetch --ascii /usr/share/titanlinux/titan
 alias neofetch="neofetch --ascii /usr/share/titanlinux/titan"
+if [ -f ~/.bash_startup ]; then
+    . ~/.bash_startup
+fi

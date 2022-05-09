@@ -1,5 +1,5 @@
 #!/bin/bash
-dialog --title "System Update" \
+dialog --no-shadow --title "System Update" \
 --backtitle "Titan Toolbox by Matthew Moore & CobaltRogue" \
 --yesno "Update your system?" 7 60
 

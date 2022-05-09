@@ -1,0 +1,14 @@
+[Desktop Entry]
+Comment=
+Exec=sh /usr/share/titanlinux/titantoolbox/AptToolsMenu.sh
+GenericName=Collection of tools for APT such as cleaning and reparing.
+Icon=new-command-alarm
+Name=APT Tools
+NoDisplay=false
+Path[$e]=
+StartupNotify=true
+Terminal=1
+TerminalOptions=
+Type=Application
+X-KDE-SubstituteUID=false
+X-KDE-Username=

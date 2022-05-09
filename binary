@@ -68,7 +68,7 @@ LB_ISO_PREPARER="Titan"
 LB_ISO_PUBLISHER="Titan"
 
 # Set iso volume (max 32 chars)
-LB_ISO_VOLUME="Titan_Linux1.0"
+LB_ISO_VOLUME="Titan_Linux1.2"
 
 # Set jffs2 eraseblock size
 LB_JFFS2_ERASEBLOCK=""

@@ -7,9 +7,11 @@ adduser
 adwaita-icon-theme
 alsa-topology-conf
 alsa-ucm-conf
+alsa-utils
 amd64-microcode
 apparmor
 appstream
+spice-vdagent
 apt
 apt-config-icons
 apt-config-icons-hidpi
@@ -21,6 +23,8 @@ apt-utils
 apt-xapian-index
 arch-test
 ark
+inxi
+tree
 arm-trusted-firmware-tools
 aspell
 aspell-am
@@ -309,6 +313,7 @@ fonts-noto-ui-extra
 fonts-noto-unhinted
 fonts-ubuntu
 fonts-urw-base35
+fonts-wine
 foomatic-db-compressed-ppds
 frameworkintegration
 fuse
@@ -520,6 +525,8 @@ kio-extras-data
 klibc-utils
 kmenuedit
 kmod
+konsole
+konsole-kpart
 kpackagelauncherqml
 kpackagetool5
 krb5-locales
@@ -578,6 +585,7 @@ libatk1.0-0:amd64
 libatk1.0-data
 libatkmm-1.6-1v5:amd64
 libatomic1:amd64
+libatopology2:amd64
 libatspi2.0-0:amd64
 libattr1:amd64
 libaudit-common
@@ -760,6 +768,7 @@ libfdisk1:amd64
 libffi7:amd64
 libffmpegthumbnailer4v5
 libfftw3-double3:amd64
+libfftw3-single3:amd64
 libfido2-1:amd64
 libfile-basedir-perl
 libfile-chdir-perl
@@ -1984,7 +1993,6 @@ qtattributionsscanner-qt5
 qtbase5-dev:amd64
 qtbase5-dev-tools
 qtchooser
-qterminal
 qterminal-l10n
 qtermwidget5-data
 qtspeech5-speechd-plugin:amd64
@@ -2165,6 +2173,7 @@ xtrans-dev
 xxd
 xz-utils
 yad
+yakuake
 zenity
 zenity-common
 zerofree

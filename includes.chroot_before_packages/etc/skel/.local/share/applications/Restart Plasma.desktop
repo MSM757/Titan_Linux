@@ -1,7 +1,7 @@
 [Desktop Entry]
 Comment=
 Exec=kquitapp5 plasmashell || killall plasmashell && kstart5 plasmashell
-GenericName=Restart plasma shell in case of unstability.
+GenericName=Restart plasma in case of instability.
 Icon=view-refresh
 Name=Restart Plasma
 NoDisplay=false

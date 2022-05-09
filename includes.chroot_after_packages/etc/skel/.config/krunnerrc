@@ -1,5 +1,5 @@
 [General]
-FreeFloating=true
+FreeFloating=false
 HistoryEnabled=true
 RetainPriorSearch=true
 

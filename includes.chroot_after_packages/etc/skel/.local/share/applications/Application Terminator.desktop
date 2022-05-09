@@ -1,8 +1,8 @@
 [Desktop Entry]
 Comment=
 Exec=xkill
-GenericName=Click an application to terminate it's process.
-Icon=dialog-close
+GenericName=Left click to kill an application, right click to cancel.
+Icon=application-exit-symbolic
 Name=Application Terminator
 NoDisplay=false
 Path[$e]=

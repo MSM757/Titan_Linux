@@ -6,9 +6,8 @@ wheel:Vertical;NoModifier=org.kde.switchdesktop
 [ActionPlugins][1]
 RightButton;NoModifier=org.kde.contextmenu
 
-[Containments][1]
-ItemGeometriesHorizontal=
-activityId=a31679dc-2212-4df4-a0b1-0abd7044ef66
+[Containments][19]
+activityId=
 formfactor=0
 immutability=1
 lastScreen=0
@@ -16,22 +15,11 @@ location=0
 plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
-[Containments][1][ConfigDialog]
-DialogHeight=540
-DialogWidth=720
-
-[Containments][1][Configuration]
-PreloadWeight=0
-
-[Containments][1][General]
-ToolBoxButtonState=topcenter
-ToolBoxButtonX=660
-positions=1,17,desktop:/install-debian.desktop,0,0
+[Containments][19][General]
 sortMode=-1
 
-[Containments][1][Wallpaper][org.kde.image][General]
-Image=file:///usr/share/wallpapers/wallpapers/titan-pegasus.jpg
-SlidePaths=/usr/share/wallpapers
+[Containments][19][Wallpaper][org.kde.image][General]
+Image=file:///usr/share/wallpapers/Next/contents/images/1920x1080.jpg
 
 [Containments][2]
 activityId=
@@ -73,6 +61,9 @@ plugin=org.kde.plasma.trash
 [Containments][2][Applets][17][Configuration]
 PreloadWeight=0
 
+[Containments][2][Applets][21][Configuration]
+PreloadWeight=92
+
 [Containments][2][Applets][3]
 immutability=1
 plugin=org.kde.plasma.kickoff
@@ -87,7 +78,7 @@ DialogWidth=720
 [Containments][2][Applets][3][Configuration][General]
 alphaSort=true
 favoritesPortedToKAstats=true
-icon=/usr/share/titanlinux/titan-dark.png
+icon=/usr/share/titanlinux/titan-dark.svg
 menuItems=application:t,oftenUsed:f,leave:f,bookmark:f,computer:f,used:f
 switchTabsOnHover=false
 
@@ -113,7 +104,7 @@ DialogWidth=720
 
 [Containments][2][Applets][5][Configuration][General]
 groupedTaskVisualization=2
-launchers=applications:firefox-esr.desktop,applications:org.kde.dolphin.desktop,applications:org.kde.discover.desktop
+launchers=applications:firefox-esr.desktop,applications:org.kde.dolphin.desktop,applications:org.kde.discover.desktop,applications:org.kde.konsole.desktop
 
 [Containments][2][Applets][6]
 immutability=1
@@ -168,7 +159,7 @@ immutability=1
 plugin=org.kde.plasma.battery
 
 [Containments][7][Applets][15][Configuration]
-PreloadWeight=0
+PreloadWeight=5
 
 [Containments][7][Applets][16][Configuration]
 PreloadWeight=42
@@ -187,6 +178,13 @@ plugin=org.kde.plasma.networkmanagement
 [Containments][7][Applets][19][Configuration]
 PreloadWeight=0
 
+[Containments][7][Applets][20]
+immutability=1
+plugin=org.kde.plasma.bluetooth
+
+[Containments][7][Applets][20][Configuration]
+PreloadWeight=42
+
 [Containments][7][Applets][8]
 immutability=1
 plugin=org.kde.plasma.volume
@@ -201,6 +199,10 @@ plugin=org.kde.plasma.clipboard
 [Containments][7][Applets][9][Configuration]
 PreloadWeight=0
 
+[Containments][7][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
+
 [Containments][7][Configuration]
 PreloadWeight=0
 
@@ -211,6 +213,3 @@ knownItems=org.kde.kupapplet,org.kde.plasma.volume,org.kde.plasma.mediacontrolle
 [Containments2Appletsts][16][Configuration][General]
 show_lockScreen=false
 
-[ScreenMapping]
-itemsOnDisabledScreens=
-screenMapping=desktop:/.disk,0,desktop:/StockSnap_9FM2TZZYP4.jpg,0,desktop:/4393153613_053916fdeb_o.jpg,0,desktop:/commands.txt,0,desktop:/.disk/info,0,desktop:/os-release,0,desktop:/titantoolbox,0,desktop:/StockSnap_X61ITHOAT6.jpg,0,desktop:/Packages.txt,0,desktop:/install-debian.desktop,0,desktop:/eznix113,0

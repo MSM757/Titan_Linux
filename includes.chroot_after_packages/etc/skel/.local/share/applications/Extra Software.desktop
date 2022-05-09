@@ -1,0 +1,14 @@
+[Desktop Entry]
+Comment=
+Exec=sudo sh /usr/share/titanlinux/titantoolbox/SoftwareMenu.sh
+GenericName=Install a collection of harder to install software more easily.
+Icon=bqm-add
+Name=Extra Software
+NoDisplay=false
+Path[$e]=
+StartupNotify=true
+Terminal=1
+TerminalOptions=
+Type=Application
+X-KDE-SubstituteUID=false
+X-KDE-Username=

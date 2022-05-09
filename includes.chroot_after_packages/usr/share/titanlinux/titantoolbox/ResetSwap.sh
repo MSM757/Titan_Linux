@@ -1,5 +1,5 @@
 #!/bin/bash
-dialog --title "Reset Swap" \
+dialog --no-shadow --title "Reset Swap" \
 --backtitle "Titan Toolbox by Matthew Moore & CobaltRogue" \
 --yesno "Clear and reset your swap space?" 7 60
 
