@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE khotnewstuff3>
+<hotnewstuffregistry>
+ <stuff category="299">
+  <name>Aurora Borealis</name>
+  <providerid>https://api.kde-look.org/ocs/v1/</providerid>
+  <author>nesuko</author>
+  <homepage>https://store.kde.org/p/1387492</homepage>
+  <licence></licence>
+  <version></version>
+  <rating>50</rating>
+  <downloads>5832</downloads>
+  <installedfile>/home/titan/.local/share/wallpapers/aurora-borealis.jpg</installedfile>
+  <id>1387492</id>
+  <releasedate>2020-06-03</releasedate>
+  <summary>Aurora borealis wallpaper, you can choose between clean, plasma and KDE versions. Quality 16:9 ratio</summary>
+  <changelog></changelog>
+  <preview>https://images.pling.com/cache/100x100-0/img/00/00/54/79/69/1387492/7ef2a77cec6fe8d6b84295a3622ab35f499a.png</preview>
+  <previewBig>https://images.pling.com/cache/770x540-0/img/00/00/54/79/69/1387492/7ef2a77cec6fe8d6b84295a3622ab35f499a.png</previewBig>
+  <payload>https://dl2.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE1OTA1Mjg5NjIiLCJvIjoiMSIsInMiOiJjNmU1NTY3ZWQ5MDE4MjUwYjNiODYxYjAyNWU2MmNjZWY5ZjBiOGJhYTgwMzc5NDFjMzA4MTliY2RjNTUxYzRkMTAzYjYxMzIyZDA4ZTg0MTc5MDNiMWU4YzhjYjE1YjQ5ZTU2MzA0YzU5MzM3YWRhZTQ5NzE2YTNmMzcxNGYyNyIsInQiOjE2NTA2MzUxNDksInN0ZnAiOm51bGwsInN0aXAiOiI5Ny44Ny4zNi41NiJ9.sd_zOrulD23AYGHfFYYjG05sK6KwpYs_kB_zl46ew3Y/aurora-borealis.jpg</payload>
+  <tags>kde,dark,borealis,cc-by-sa,aurora,wallpaper,plasma,artwork</tags>
+  <status>installed</status>
+ </stuff>
+ <stuff category="299">
+  <name>Earth nebula</name>
+  <providerid>https://api.kde-look.org/ocs/v1/</providerid>
+  <author>nesuko</author>
+  <homepage>https://store.kde.org/p/1389021</homepage>
+  <licence></licence>
+  <version></version>
+  <rating>50</rating>
+  <downloads>7287</downloads>
+  <installedfile>/home/titan/.local/share/wallpapers/earth_nebula.jpg</installedfile>
+  <id>1389021</id>
+  <releasedate>2020-06-01</releasedate>
+  <summary>Earth nebula wallpaper, you can choose between clean, plasma and KDE versions. Quality 16:9 ratio</summary>
+  <changelog></changelog>
+  <preview>https://images.pling.com/cache/100x100-0/img/00/00/54/79/69/1389021/148dbfb287889b5e4648a329ae157b785be8.jpg</preview>
+  <previewBig>https://images.pling.com/cache/770x540-0/img/00/00/54/79/69/1389021/148dbfb287889b5e4648a329ae157b785be8.jpg</previewBig>
+  <payload>https://dl2.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE1OTA5ODY1NzUiLCJvIjoiMSIsInMiOiJiODM4YTczYjhhZjZlZTQ2YTE0YTk5YTFmZGM1NGJkOGY1NmRhZmViMDM1MTQ5YmJjMzA4NjFjZWM1MDkwNjlmZWM4MmY0YzNhNjc1ODQyZTk0MzljN2IxNzQ0MWY1YmYwMmQxNTg3ZDI3NmVjMGI3OWU5Mjg0MjBlYmYxYjc0NiIsInQiOjE2NTA2MzUxNDQsInN0ZnAiOm51bGwsInN0aXAiOiI5Ny44Ny4zNi41NiJ9.Vpf_8oydvKDdENf17Z4MCDqz6z7QpvwsnQNbNMD9SqQ/earth_nebula.jpg</payload>
+  <tags>wallpaper,space,plasma,nebula,cc-by-sa,artwork,green,kde,dark,earth</tags>
+  <status>installed</status>
+ </stuff>
+</hotnewstuffregistry>

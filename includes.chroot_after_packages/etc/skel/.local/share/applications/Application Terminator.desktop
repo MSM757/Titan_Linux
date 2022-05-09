@@ -1,0 +1,14 @@
+[Desktop Entry]
+Comment=
+Exec=xkill
+GenericName=Left click to kill an application, right click to cancel.
+Icon=application-exit-symbolic
+Name=Application Terminator
+NoDisplay=false
+Path[$e]=
+StartupNotify=true
+Terminal=0
+TerminalOptions=
+Type=Application
+X-KDE-SubstituteUID=false
+X-KDE-Username=

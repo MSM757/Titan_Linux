@@ -1,0 +1,14 @@
+[Desktop Entry]
+Comment=
+Exec=sh /usr/share/titanlinux/titantoolbox/TweaksMenu.sh
+GenericName=Collection of tweaks for your Titan Linux system
+Icon=tool_brush
+Name=Tweak Tool
+NoDisplay=false
+Path[$e]=
+StartupNotify=true
+Terminal=1
+TerminalOptions=
+Type=Application
+X-KDE-SubstituteUID=false
+X-KDE-Username=

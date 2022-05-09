@@ -1,0 +1,65 @@
+State=AAAA/wAAAAD9AAAAAwAAAAAAAACjAAACKPwCAAAAAvsAAAAWAGYAbwBsAGQAZQByAHMARABvAGMAawAAAAAA/////wAAAAoBAAAD+wAAABQAcABsAGEAYwBlAHMARABvAGMAawEAAABEAAACKAAAAF0BAAADAAAAAQAAAAAAAAAA/AIAAAAB+wAAABAAaQBuAGYAbwBEAG8AYwBrAAAAAAD/////AAAACgEAAAMAAAADAAAAAAAAAAD8AQAAAAH7AAAAGAB0AGUAcgBtAGkAbgBhAGwARABvAGMAawAAAAAA/////wAAAAoBAAADAAADRAAAAigAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAACAAAAAQAAABYAbQBhAGkAbgBUAG8AbwBsAEIAYQByAQAAAAD/////AAAAAAAAAAA=
+Virtual1 Height 976=620
+Virtual1 Width 1920=1000
+Virtual1 XPosition=99
+Virtual1 YPosition=206
+
+[CompactMode]
+FontWeight=50
+
+[DetailsMode]
+FontWeight=50
+
+[General]
+RememberOpenedTabs=false
+ShowCopyMoveMenu=true
+ShowFullPath=true
+ShowFullPathInTitlebar=true
+Version=200
+ViewPropsTimestamp=2022,4,22,7,48,15
+
+[IconsMode]
+FontWeight=50
+
+[KPropertiesDialog]
+Virtual1 Height 976=444
+Virtual1 Width 1920=362
+
+[MainWindow]
+MenuBar=Disabled
+RestorePositionForNextInstance=false
+State=AAAA/wAAAAD9AAAAAwAAAAAAAACjAAACSPwCAAAAAvsAAAAWAGYAbwBsAGQAZQByAHMARABvAGMAawAAAAAA/////wAAAAoBAAAD+wAAABQAcABsAGEAYwBlAHMARABvAGMAawEAAAAmAAACSAAAAF0BAAADAAAAAQAAAAAAAAAA/AIAAAAB+wAAABAAaQBuAGYAbwBEAG8AYwBrAAAAAAD/////AAAACgEAAAMAAAADAAAAAAAAAAD8AQAAAAH7AAAAGAB0AGUAcgBtAGkAbgBhAGwARABvAGMAawAAAAAA/////wAAAAoBAAADAAADVQAAAkgAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAACAAAAAQAAABYAbQBhAGkAbgBUAG8AbwBsAEIAYQByAQAAAAD/////AAAAAAAAAAA=
+ToolBarsMovable=Disabled
+Virtual1 Height 531=450
+Virtual1 Height 600=519
+Virtual1 Height 805=585
+Virtual1 Height 843=589
+Virtual1 Height 846=589
+Virtual1 Height 975=583
+Virtual1 Height 976=620
+Virtual1 Height 983=614
+Virtual1 Height 984=622
+Virtual1 Width 1288=906
+Virtual1 Width 1347=928
+Virtual1 Width 1920=1017
+Virtual1 Width 712=704
+Virtual1 Width 800=796
+Virtual1 Width 958=950
+Virtual1 XPosition=486
+Virtual1 YPosition=201
+
+[Open-with settings]
+CompletionMode=1
+History=
+
+[PreviewSettings]
+Plugins=audiothumbnail,comicbookthumbnail,djvuthumbnail,ebookthumbnail,exrthumbnail,directorythumbnail,fontthumbnail,imagethumbnail,jpegthumbnail,kraorathumbnail,windowsexethumbnail,windowsimagethumbnail,opendocumentthumbnail,gsthumbnail,svgthumbnail,textthumbnail,ffmpegthumbs
+
+[SettingsDialog]
+Virtual1 Height 805=440
+Virtual1 Height 976=440
+Virtual1 Width 1347=589
+Virtual1 Width 1920=589
+
+[kuick-move]
+Paths[$e]=$HOME/Desktop/

@@ -1,0 +1,14 @@
+[Desktop Entry]
+Comment=
+Exec=sudo sh /usr/share/titanlinux/titantoolbox/AdvancedMenu.sh
+GenericName=Collection of tools for the advanced user, can lead to issues.
+Icon=dialog-warning-symbolic
+Name=Advanced Tools
+NoDisplay=false
+Path[$e]=
+StartupNotify=true
+Terminal=1
+TerminalOptions=
+Type=Application
+X-KDE-SubstituteUID=false
+X-KDE-Username=

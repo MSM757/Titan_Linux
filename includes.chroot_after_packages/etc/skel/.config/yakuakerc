@@ -1,0 +1,12 @@
+[Appearance]
+Translucency=true
+
+[Desktop Entry]
+DefaultProfile=Titan.profile
+
+[Dialogs]
+FirstRun=false
+
+[Window]
+Height=60
+ShowTabBar=false

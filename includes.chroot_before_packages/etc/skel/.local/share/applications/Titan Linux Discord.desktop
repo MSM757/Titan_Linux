@@ -1,0 +1,13 @@
+[Desktop Entry]
+Comment=
+Exec=xdg-open https://discord.com/invite/F8Gsa597P8
+Icon=/usr/share/titanlinux/titan-dark.svg
+Name=Titan Linux Discord
+NoDisplay=false
+Path[$e]=
+StartupNotify=true
+Terminal=0
+TerminalOptions=
+Type=Application
+X-KDE-SubstituteUID=false
+X-KDE-Username=
